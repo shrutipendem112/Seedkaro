@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.sd-header-nav{
+    background-color:antiquewhite;
+    width: 100%;
+    height: 5rem;
+}
+
+
+
+/* our feature */
+.feature-main h1{
+    color: rgb(107, 240, 67);
+}
+.feature-textalign{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.feature-row1{
+    border: 2px solid red;
+}
+.feature-row1-flex-container{
+    display: flex;
+    border: 2px solid blue;
+    justify-content: space-evenly;
+}
+
+
+
+/* about us */
+.about-us-main{
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(255, 253, 253);
+}
+.about-us-para{
+    /* border: 2px solid black */
+    margin: 1rem;
+    
+}
+.about-us-para h1{
+    color: rgb(107, 240, 67);
+
+}
+.about-us-para button{
+    background-color: rgb(107, 240, 67);
+    color: #ffffff;
+    border: 0.1rem solid transparent;
+    outline: 0rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.about-us-img{
+    /* border: 2px solid red; */
+    padding: 4rem 3rem 4rem 0rem ; 
+}
