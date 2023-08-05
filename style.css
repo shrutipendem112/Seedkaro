@@ -152,3 +152,12 @@ footer{
     background-repeat: no-repeat;
     border-top: 0.4rem solid rgb(65, 211, 21);
 }
+.form-width-container{
+    width: 700px;
+}
+.form-width{
+    width: 400px;
+}
+.text-white{
+    color: rgb(77, 210, 36)!important;
+}
