@@ -40,47 +40,44 @@
 }
 
 
+
 /* our feature */
+.padding-content{
+    width: 90%;
+    margin:auto;
+    border: 2px solid red;
+}
 .feature-textalign{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 1.5rem;
 }
-.feature-row1{
-    /* border: 2px solid red; */
-}
-.feature-row1 h3{
-    padding: 2.5rem 0rem 2.5rem 10.4rem;
-}
-.feature-row1-flex-container{
-    display: flex;
-    /* border: 2px solid blue; */
-    justify-content: space-evenly;
-}
-.card-container{
-    box-shadow: 4px 5px 40px rgb(180, 178, 178) ;
-}
-.investor-img{
-    width: 4.375rem;
-    height: 4.375rem;
+.card-img-top{
+    padding: 0.5rem;
+    width: 5rem !important;
+    height: 5rem !important;
     margin: auto;
+}
+.feature-title{
+    margin: 2rem 0rem 2rem 10rem;
 }
 
 
 
 /* about us */
-.about-us-main{
-    display: flex;
-    overflow: hidden;
-    background-color: rgb(255, 253, 253);
-}
-.about-us-para{
-    /* border: 2px solid black */
-    margin: 1rem;
-    
-}
+
 .heading-para{
     color: rgb(77, 210, 36);
+}
+.about-content{
+    line-height: 1.5rem;
+}
+.bg-image{
+    background-image: url(images/aboutus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
 }
 .green-button{
     background-color: rgb(77, 210, 36);
@@ -89,10 +86,6 @@
     outline: 0rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
-}
-.about-us-img{
-    /* border: 2px solid red; */
-    padding: 4rem 3rem 4rem 0rem ; 
 }
 
 
@@ -149,4 +142,13 @@ footer{
 }
 .footer-copy-right{
     color: rgb(77, 210, 36);
+}
+
+.bg-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0.4rem solid rgb(65, 211, 21);
 }
