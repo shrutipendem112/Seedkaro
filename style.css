@@ -7,25 +7,63 @@
     background-color:antiquewhite;
     width: 100%;
     height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
+.sdk-logo{
+    width: 14rem;
+    height: 3rem;
+    border: 2px solid green;
+    background-image: url(images/logo.png);
+    background-size: cover;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(249, 249, 249);
+    border-top: 0.4rem solid rgb(65, 211, 21);
+}
+.hero-para {
+    /* border: 2px solid red; */
+    width: 400px;
+    padding-top: 9rem;
+}
+.hero-para h1{
+    color: rgb(77, 210, 36);
+    /* border: 2px solid blueviolet; */
+    width: 20rem;
+}
+.hero-img{
+    /* border: 2px solid blue; */
+    padding-top: 4.5rem;
+}
 
 
 /* our feature */
-.feature-main h1{
-    color: rgb(107, 240, 67);
-}
 .feature-textalign{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 1.5rem;
 }
 .feature-row1{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.feature-row1 h3{
+    padding: 2.5rem 0rem 2.5rem 10.4rem;
 }
 .feature-row1-flex-container{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content: space-evenly;
+}
+.card-container{
+    box-shadow: 4px 5px 40px rgb(180, 178, 178) ;
+}
+.investor-img{
+    width: 4.375rem;
+    height: 4.375rem;
+    margin: auto;
 }
 
 
@@ -41,12 +79,11 @@
     margin: 1rem;
     
 }
-.about-us-para h1{
-    color: rgb(107, 240, 67);
-
+.heading-para{
+    color: rgb(77, 210, 36);
 }
-.about-us-para button{
-    background-color: rgb(107, 240, 67);
+.green-button{
+    background-color: rgb(77, 210, 36);
     color: #ffffff;
     border: 0.1rem solid transparent;
     outline: 0rem;
@@ -56,4 +93,60 @@
 .about-us-img{
     /* border: 2px solid red; */
     padding: 4rem 3rem 4rem 0rem ; 
+}
+
+
+.earn-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+}
+.img-left{
+    /* border: 2px solid blue; */
+}
+.earn-para{
+    text-align: center;
+    margin-top: 9rem;
+}
+.earn-heading{
+    font-size: 2rem;
+    color: rgb(77, 210, 36);
+}
+.earn-heading{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    /* border: 2px solid navy; */
+}
+.earn-para2{
+    font-size: 1.5rem;
+    /* border: 2px solid green; */
+    padding-bottom: 2rem;
+}
+
+.bg-banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    height: 100vh;
+}
+.white-bg-form{
+    background-color: #ffffff;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    box-shadow: 4px 5px 40px rgb(133, 133, 133) ;
+}
+.form-margin{
+    padding: 4rem 5rem;
+}
+
+
+footer{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(21, 21, 21);
+}
+.footer-copy-right{
+    color: rgb(77, 210, 36);
 }
